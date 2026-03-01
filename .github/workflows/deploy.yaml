@@ -11,7 +11,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     env:
-      HOST: root@194.87.47.157
+      HOST: root@91.206.93.10
       DEPLOY_DIRECTORY: /root/apps/url-shortener
       CONFIG_PATH: /root/apps/url-shortener/config/prod.yaml
       ENV_FILE_PATH: /root/apps/url-shortener/config.env
